@@ -4,13 +4,15 @@
 
 ### 介绍：
 
-IMDB上有票房数据的电影信息
+movies_imdb.json： IMDB上有票房数据的电影信息
 
 **数据来源**：IMDB
 
 [https://www.imdb.com/search/title/?title_type=feature&release_date=1980-01-01,2019-12-31](https://www.imdb.com/search/title/?title_type=feature&release_date=1980-01-01,2019-12-31)
 
 （类型：Feature Film，时间：1980-2019）
+
+爬取时间：2019年11月
 
 **数据概况：**
 
@@ -44,7 +46,34 @@ IMDB上有票房数据的电影信息
 	year               36793 non-null object
 **注：票房信息已处理成统一的单位（美元）（用的是当时的汇率）**
 
-**用途参考：**票房预测
+**用途参考：** 票房预测
+
+
+
+## 2.豆瓣电影数据
+
+### 介绍
+
+movies_douban.sql：豆瓣电影信息数据。
+
+共9915条，包括标题、年份、演员、评分等信息。
+
+具体如下：
+
+​        ![img](https://uploader.shimo.im/f/qzlZpHgz95ItJlA7.png!thumbnail)
+​     
+
+## 3.豆瓣电影评论数据
+
+### 介绍
+
+comments_douban.sql： 近500万条豆瓣短评数据。
+
+**用途参考**： 影评情感分析
+
+
+
+
 
 
 
